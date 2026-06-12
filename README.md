@@ -1,7 +1,7 @@
 # 🏆 India Runs Hackathon — Intelligent Candidate Ranking
 ### Track 1: Data & AI Challenge by Redrob AI
 
-> **Built by a 2nd semester engineering student in 1 day.**  
+> **Built by a 2nd semester engineering student.**  
 > A working AI-powered candidate ranking system that ranked 100,000 profiles
 > intelligently — going far beyond keyword matching.
 
