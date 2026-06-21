@@ -11,6 +11,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import datetime, date
 import numpy as np
+import os
 
 # ─── Page Config ────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -123,7 +124,8 @@ st.markdown("""
 # ─── Data Loading ────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv("enriched_candidates.csv")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    df = pd.read_csv(os.path.join(base_dir, "enriched_candidates.csv"))
     df["last_active"] = pd.to_datetime(df["last_active"])
     df["days_since_active"] = (pd.Timestamp("2026-06-21") - df["last_active"]).dt.days
     df["score_pct"] = (df["score"] * 100).round(1)
@@ -149,9 +151,10 @@ def load_data():
 @st.cache_data
 def load_full_profiles():
     try:
-        submission_ids = set(pd.read_csv("enriched_candidates.csv")["candidate_id"].tolist())
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        submission_ids = set(pd.read_csv(os.path.join(base_dir, "enriched_candidates.csv"))["candidate_id"].tolist())
         profiles = {}
-        with open("candidates.jsonl") as f:
+        with open(os.path.join(base_dir, "candidates.jsonl")) as f:
             for line in f:
                 c = json.loads(line)
                 if c["candidate_id"] in submission_ids:
