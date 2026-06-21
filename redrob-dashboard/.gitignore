@@ -1,0 +1,12 @@
+# Org dataset — do not push
+candidates.jsonl
+*.jsonl
+
+# Raw submission backup
+submission.csv
+
+# Python cache
+__pycache__/
+*.pyc
+.streamlit/
+.env
