@@ -276,7 +276,7 @@ india-runs-candidate-ranking/
 
 ## 👤 About
 
-Built by a **Built by a 2nd semester engineering student** in their first hackathon.
+Built by a **2nd semester engineering student** in their first hackathon.
 Prior experience: basic Python, HTML/CSS, JavaScript.
 
 This project was built from scratch in one day — starting from zero knowledge of machine learning, embeddings, or semantic search. Every function in the notebook is commented to explain what it does and why.
