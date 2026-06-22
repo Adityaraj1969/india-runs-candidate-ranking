@@ -248,7 +248,9 @@ india-runs-candidate-ranking/
 ├── 📄 README.md                             # This file
 │
 └── 📂 redrob-dashboard/                     # Interactive demo
-    ├── app.py                               # Streamlit dashboard (3 tabs)
+    ├── .streamlit/                          # interactive Redrob AI Recruiter Dashboard
+    ├── config.toml                          # lock the theme to dark mode permanently
+    ├── app.py                               # Streamlit app (3 tabs)
     ├── build_data.py                        # Data prep script
     ├── requirements.txt                     # Dependencies
     ├── enriched_candidates.csv              # Pre-built for cloud deploy
