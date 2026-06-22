@@ -104,4 +104,4 @@ When presenting to judges, walk through these three moments:
 
 ---
 
-*Built for India Runs Hackathon by a 2nd semester B.Tech student.*
+*Built for India Runs Hackathon by a Built by a 2nd semester engineering student.*
