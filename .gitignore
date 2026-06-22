@@ -8,5 +8,6 @@ submission.csv
 # Python cache
 __pycache__/
 *.pyc
-.streamlit/
+# Only ignore .streamlit at root level, not inside subfolders
+/.streamlit/
 .env
