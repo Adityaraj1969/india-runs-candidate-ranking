@@ -176,13 +176,13 @@ Rank 3: CAND_0039754 | Score: 0.7767
   Senior Applied Scientist | 16.2 yrs exp | 13 AI skills matched
   strong semantic match | open to work | active this month | response rate 81%
 
-Rank 4: CAND_0011687 | Score: 0.7662
-  Senior NLP Engineer | 7.8 yrs exp | 10 AI skills matched
-  strong semantic match | open to work | active this month | response rate 89%
-
-Rank 5: CAND_0046525 | Score: 0.7660
+Rank 4: CAND_0046525 | Score: 0.7660
   Senior Machine Learning Engineer | 6.1 yrs exp | 11 AI skills matched
   strong semantic match | open to work | active this month | response rate 88%
+
+Rank 5: CAND_0040887 | Score: 0.7626
+  Machine Learning Engineer | 4.7 yrs exp | 6 AI skills matched
+  strong semantic match | open to work | active this month | response rate 84%
 ```
 
 ---
